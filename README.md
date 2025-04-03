@@ -40,7 +40,8 @@ The system consists of the following components:
 - **Purpose**: Provides an interactive interface for users to interact with the chatbot.
 - **Technology**: Streamlit.
 
----
+---![ChatGPT Image Apr 3, 2025, 05_50_20 PM](https://github.com/user-attachments/assets/28905a0f-3e88-4d13-8536-a1045bd984a5)
+
 
 ## **Workflow**
 
