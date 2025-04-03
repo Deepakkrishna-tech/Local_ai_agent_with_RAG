@@ -1,0 +1,21 @@
+data:
+  file_path: "first_100_rows.csv"
+  required_columns: ["instruction", "response", "category", "intent"]
+
+vector_store:
+  db_location: "./customer_support_db"
+  embedding_model: "mxbai-embed-large"
+
+retriever:
+  top_k: 5
+
+prompt:
+  template: |
+    You are an expert customer support assistant for {domain}.
+
+    Here is some relevant information:
+    {context}
+
+    Based on this, answer the following question:
+    {question}
+  domain: "customer support"
